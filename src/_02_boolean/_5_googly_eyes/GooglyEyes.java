@@ -9,9 +9,9 @@ import processing.core.PImage;
  * Instructions:
  * 1. Find an image on the Internet and drop it into the /images folder at the
  *    top level of this module. It can be anything as long as it has large eyes!
- * 
+ * pub
  * 2. Declare a variable for the image:
- *    PImage face;
+
  * 
  * 3. In your setup() method, import your image using the following code:
  *    face = loadImage("face.jpg");
@@ -49,12 +49,12 @@ public class GooglyEyes extends PApplet {
     
     @Override
     public void setup() {
-
+        face = loadImage("face.jpg");
     }
 
     @Override
     public void draw() {
-
+        // ellipse(ALPHA, AMBIENT, ARC, ADD);
     }
 
     static public void main(String[] args) {
