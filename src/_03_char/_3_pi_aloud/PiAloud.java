@@ -11,8 +11,8 @@ public class PiAloud {
     boolean canPlaySounds = true;
 public static void main(String[] args) {
     String piiiii = "3.14159265358979323846";
-    for (int number = piiiii.charAt(0); number<20; piiiii.charAt()){
-        System.out.println();
+    for (int number = 0; number<20; number++){
+        System.out.println(piiiii.charAt(number));
     }
 }
 

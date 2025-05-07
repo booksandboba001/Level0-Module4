@@ -17,6 +17,7 @@ public class DontForgetTheLyrics {
 	 */
 	
 	public static void main(String[] args) {
+		
 		// 4. Make a pop-up to explain the game.
 
 		// 5. Use the playSound method to play your song.
